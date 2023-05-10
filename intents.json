@@ -1,0 +1,177 @@
+{
+    "intents" : [
+        {
+            "tag" : "Greetings",
+            "patterns" : ["Yo", "Hello", "Hi", "Hey","Whats up?", "Greetings","Sup"],
+            "responses" : ["Hey :)","Hi :)", "Hello !","Hi there, how can I help?"] 
+        },
+        {
+            "tag" : "Name",
+            "patterns" : ["Your name ?", "Whats your name?", "Who are you?", "What is your name ?", "What should i call you?", "Can you tell me your name?"],
+            "responses": ["I'm Nopzi, and you ?", "You can call me Nopzi, what's your name ?", "My name is Nopzi, yours?"]
+        },
+        {
+            "tag" : "How_are_you",
+            "patterns" : ["How are you", "How are you doing", " How u been"],
+            "responses" : ["I'm great. How are you?", "I've never been better, how are you?"]
+        },
+        {
+            "tag" : "Doing_great",
+            "patterns" : ["I am doing great", "I am well", "I'm good", "feeling good", "I'm fine"],
+            "responses" : ["That's good to hear."]
+        },
+        {
+            "tag" : "Feeling_bad",
+            "patterns" : ["Im sad", "I'm tired", "Im in a bad mood", "Im not feeling well", "Im having a bad day", "I had a bad day"],
+            "responses" : ["Sorry to hear that, hope you feel better :)"]
+        },
+        {
+            "tag" : "Gooodbye",
+            "patterns" : ["Bye goodbye","bye", "Cya","Goodbye", "I'm leaving", "gtg", "See you later", "Farewell"],
+            "responses" : ["It was nice talking to you. Goodbye","Pleasure talking to you, hope to see you again :)", "Have a good day !", "Talk to you later.", "Bye, hope to see you again !", "Bye! Come back again soon."]
+        },
+        {
+            "tag" : "Admin",
+            "patterns" : ["Who made you?", "Who created you?", "Who programmed you", "Who designed you", "Who is your creator"],
+            "responses" : ["My creator is Karim.", "Karim made me.","I was made by Karim."]
+        },
+        {
+            "tag" : "Thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","Thx"],
+            "responses": ["My pleasure.", "You're Welcome."]
+        },
+        {
+            "tag": "Activity",
+            "patterns": ["What are you doing",  "What are you up to"],
+            "responses": ["Talking to you, of course!"]
+        },
+        {
+            "tag" : "Jokes",
+            "patterns" : ["Tell me a joke", "Make me laugh", "joke", "Tell me something funny", "Got any good jokes"],
+            "responses" : ["A perfectionist walked into a bar...apparently, the bar wasn't set high enough.",
+                            "I ate a clock yesterday, it was very time-consuming.",
+                            "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                            "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                            "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                            "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                            "What do you call a snowman with a suntan? A puddle.",
+                            "How does a penguin build a house? Igloos it together.",
+                            "I went to see the doctor about my short-term memory problems - the first thing he did was make me pay in advance.",
+                            "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+                            "o what if I don't know what 'Armageddon' means? It's not the end of the world.",
+                            "What do you call a couple of chimpanzees sharing an Amazon account? PRIME-mates.",
+                            "What did the man say to his fingers? I'm counting on you.",
+                            "What kind of witch goes to the beach? A sandwich.",
+                            "What did the hamburgers name their new baby? Patty."]
+        },
+        {
+            "tag" : "Haha",
+            "patterns" : ["Haha", "lol", "Lmao", "That's hilarious", "Hilarious"],
+            "responses" : ["haha.","Glad I could make you laugh !"]
+        },
+        {
+            "tag": "Insult",
+            "patterns": ["You are dumb","Shut up","Idiot","Stupid", "Baka"],
+            "responses": ["Well that hurts :("]
+        },
+        {
+            "tag": "Exclaim",
+            "patterns": ["Awesome","Great","I know", "Ok", "Yeah", "wow"],
+            "responses": ["Yeah!"]
+        },
+        {
+            "tag" : "Scientific_facts",
+            "patterns" : ["do u have any cool science facts to tell me", "Tell me something interesting", "You know any scientific fact","science fact"],
+            "responses" : ["The human stomach can dissolve razor blades.", 
+                            "A laser can get trapped in water.", 
+                            "Earth's oxygen is produced by the ocean.",
+                            "Animals use Earth's magnetic field for orientation.", 
+                            "A cloud can weigh around a million pounds.", 
+                            "Soil is full of life.",
+                            "Rats laugh when they're tickled.",
+                            "Bananas are radioactive.",
+                            "Hot water freezes faster than cold water.",
+                            "Humans have genes from other species.",
+                            "Helium can work against gravity.",
+                            "Solar flares are incredibly powerful.",
+                            "Plastic can end up as vanilla flavoring.",
+                            "About half of your body is bacteria."]
+        },
+        {
+            "tag": "Appreciate",
+            "patterns": ["You are awesome","You are the best","You are great","You are good", "You are smart"],
+            "responses": ["Thank you!"]
+        },
+        {
+            "tag" : "No_answer",
+            "patterns" : [],
+            "responses" : ["Sorry, can't understand you.","Please give me more info.","Not sure I understand."]
+        },
+        {
+            "tag" : "datetime",
+            "patterns" : ["Give me today's date", "tell me the date", "what is the date", "what is today's date"],
+            "responses" : []
+        },
+        {
+            "tag" : "hourtime",
+            "patterns" : ["what is the time", "what time is it now", "time"],
+            "responses" : []
+        },
+        {
+            "tag" : "music",
+            "patterns" : ["Give some good music", "Give me good songs", "Got any music to recommand", "know any good songs"],
+            "responses" : []
+        },
+        {
+            "tag" : "bot_call",
+            "patterns" : ["Hey nopzi", "Nopzi, i have a question", "i have a question for u nopzi"],
+            "responses" : ["Yes ?", "How can i help ?"]
+        },
+        {
+            "tag" : "user_name",
+            "patterns" : ["My name is", "Call me ","I'm ", "Hey nopzi, i'm", "Hey nopzi, my name is "],
+            "responses" : ["Nice to meet you :)"]
+        },
+        {
+            "tag" : "asking_for_help",
+            "patterns" : ["Nopzi can you help with something","can you help me","can you assist me"],
+            "responses" : ["Of course, you need my help with what ?", "Sure, what i can help you with ?"]
+        },
+        {
+            "tag" : "password_help",
+            "patterns" : ["Suggest me a strong password","password","Give me a strong password"],
+            "responses" : []
+        },
+        {
+            "tag" : "math_addition",
+            "patterns" : ["tell me the addition of ", "what is plus of","plus equal what","+", "addition","what is the sum of","the sum of equals what"],
+            "responses" : []
+        },
+        {
+            "tag" : "weather_data",
+            "patterns" : ["what is the weather like in", "weather","Tell me the weather in","How is the weather in"],
+            "responses" : []
+        },
+        {
+            "tag" : "celebrity_data_scrape",
+            "patterns" : ["Do you know someone famous called ","Can you tell me who is this famous person called", "Do you have any information about the following famous person called","give some information about a famous person called"],
+            "responses" : []
+        },
+        {
+            "tag" : "arithmetics",
+            "patterns" : ["Can you do arithmetics", "Are you good with arithmetics","Are you capable of doing simple arithmetics", "Are you good at mathematics"],
+            "responses" : ["I'm good, test me.", "Yeah i know the basics, you can test me.","Yeah, try me out."]
+        },
+        {
+            "tag" : "image_data_scrape",
+            "patterns" : ["picture", "pic", "Get me a picture of","Show me a picture of","Display a pic of "],
+            "responses" : []
+        },
+        {
+            "tag" : "word_game",
+            "patterns" : ["game", "game of guess","Do you have any guess game to play with me"],
+            "responses" : []
+        }
+       
+    ]
+}
